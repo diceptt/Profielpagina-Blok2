@@ -32,7 +32,7 @@ p {
 }
 
 #main {
-  max-width: 40vw;
+  max-width: 80vw;
   display: flex;
   gap: 40px;
 }
