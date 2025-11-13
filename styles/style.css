@@ -1,6 +1,81 @@
 body {
-  background-color: aquamarine;
-  color: blueviolet;
-  font-family: "Impact", sans-serif;
+  background-color: rgb(114, 128, 253);
+  color: white;
+  font-family: "Century Gothic", sans-serif;
   font-weight: 100;
+}
+
+p {
+  text-align: left;
+  overflow-wrap: normal;
+}
+
+/* Header */
+.h1-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main */
+.main-wrapper {
+  max-width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+
+.line {
+  width: 80vw;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+#main {
+  max-width: 40vw;
+  display: flex;
+  gap: 40px;
+}
+
+#profielfoto {
+  width: 140px;
+  height: 150px;
+  border: solid black 4px;
+  border-radius: 10%;
+}
+
+#visie {
+  max-width: 80vw;
+  text-align: left;
+}
+
+/* Waarden */
+
+#kaarten {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.kaart {
+  width: 25vw;
+  height: 150px;
+  background-color: rgb(58, 19, 214);
+  border: solid black 2px;
+}
+
+/* footer */
+/* https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div */
+
+footer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+#footer-text {
+  font-size: 10px;
+  position: relative;
+  left: -50%;
 }
