@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Momo+Signature&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&display=swap");
+
 body {
-  background-color: rgb(114, 128, 253);
+  background-color: hsl(158, 48%, 25%);
   color: white;
-  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond,
-    "Times New Roman", serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 21px;
   font-weight: lighter;
 }
@@ -13,13 +15,14 @@ p {
 }
 
 h1 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 50px;
+  font-family: "Momo Signature", cursive;
+  font-size: 60px;
+  margin-bottom: -12px;
 }
 
 h2 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 36px;
+  font-family: "Gaegu", sans-serif;
+  font-size: 48px;
   margin-bottom: 30px;
 }
 
@@ -46,12 +49,14 @@ h3 {
 .line {
   width: 80vw;
   height: 3px;
-  background-color: black;
+  background-color: hsl(158, 48%, 15%);
   margin-bottom: 20px;
 }
 
 #main {
-  max-width: 80vw;
+  max-width: 70vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   display: flex;
   gap: 30px;
 }
@@ -61,15 +66,24 @@ h3 {
   height: 250px;
   border: solid black 4px;
   border-radius: 10%;
+  margin-top: 15px;
 }
 
 #visie {
-  max-width: 80vw;
+  max-width: 70vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: -5px;
+  margin-bottom: 40px;
   text-align: left;
 }
 
 #visie :first-child {
   margin-bottom: -15px;
+}
+
+#contactinfo {
+  font-weight: 700;
 }
 
 /* Waarden */
@@ -80,15 +94,18 @@ h3 {
   flex-direction: row;
   gap: 20px;
   margin-bottom: 50px;
+  margin-top: -15px;
 }
 
 .kaart {
+  font-family: "Quicksand", sans-serif;
+  color: hsl(158, 48%, 25%);
   width: 25vw;
   height: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: rgb(58, 19, 214);
-  border: solid black 2px;
+  background-color: hsl(158, 48%, 98%);
+  border: solid hsl(158, 48%, 20%) 5px;
 }
 
 .kaart :last-child {
